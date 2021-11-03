@@ -12,6 +12,7 @@
 - PRJ-684 Exception when opening markdown files
 - PRJ-679 Fix "Read access is allowed from inside read-action" when getting Editor of diagram's view
 - PRJ-663 Fix broken graph rendering in IDE versions 2021.1 and newer
+- PRJ-443 Remove "Allow popups for this site" alert when allowance is not needed
 
 # 1.4.0
 
