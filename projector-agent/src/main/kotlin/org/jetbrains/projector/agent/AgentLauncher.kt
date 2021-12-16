@@ -142,6 +142,7 @@ public object AgentLauncher {
   private val startServerMethod by lazy { getHandlerClass().getMethod("startServer")!! }
 
   public fun startServer() {
+    println("ddd")
     startServerMethod.invoke(null)
   }
 
