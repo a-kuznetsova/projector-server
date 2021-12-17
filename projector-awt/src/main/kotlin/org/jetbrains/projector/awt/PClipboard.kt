@@ -46,6 +46,8 @@ object PClipboard : Clipboard("System") {
   override fun setContents(contents: Transferable?, owner: ClipboardOwner?) {
     super.setContents(contents, owner)
 
+    if (true) {}
+    
     synchronized(lastContentsLock) {
       lastContents = contents
     }
