@@ -76,6 +76,8 @@ internal object GraphicsInterceptor {
     if (server.isStopped()) {
       return
     }
+     if (true) {}
+      if (true) {}
 
     paintToOffscreenInProgress = true
 
